@@ -1,0 +1,637 @@
+/*整体*/
+
+#interger {
+    width: 1259px;
+    margin: 0 auto;
+}
+
+/*.nav*/
+
+.nav {
+    padding: 0 150px;
+    height: 26px;
+    line-height: 26px;
+    background: #eee;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nav p {
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+
+.nav p a {
+    display: inline-block;
+    font-size: 12px;
+    color: #ff6600;
+    margin-left: 8px;
+}
+
+.nav a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.nav #nav_ul {
+    float: right;
+}
+
+.nav #nav_ul> li {
+    float: left;
+    padding: 0px 15px 0px 15px;
+    border-top: 1px solid #e5e5e5;
+    background: url(../img/nav_line.png) right no-repeat;
+    position: relative;
+}
+
+.nav #nav_ul li a {
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+}
+
+.nav #nav_ul li a:hover {
+    color: #FF0000;
+}
+
+.nav #nav_ul li i {
+    float: right;
+    margin: 12px 0 0 8px;
+    width: 8px;
+    height: 4px;
+    background: url(../img/nav_dsj.png);
+}
+
+.nav #nav_ul> li div {
+    position: absolute;
+}
+
+.nav #nav_ul> li ul {
+    position: absolute;
+}
+
+
+/*我的名鞋库*/
+
+.nav #nav_ul li:nth-child(2) {
+    position: relative;
+    z-index: 5;
+}
+
+.nav #nav_ul li:nth-child(2) #li_ul {
+    display: none;
+    position: absolute;
+    top: 21px;
+    width: 165px;
+    height: 80px;
+    padding: 10px 0px 10px 15px;
+    border: 1px solid #eee;
+    border-top: none;
+    left: -75px;
+    background: white;
+}
+
+.nav #nav_ul li:nth-child(2) #li_ul li {
+    float: left;
+    margin-right: 15px;
+    width: 67px;
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.nav #nav_ul li:nth-child(2):hover #li_ul {
+    display: block;
+}
+
+
+/*帮助中心*/
+
+.nav #nav_ul li:last-child div {
+    display: none;
+    text-align: center;
+    width: 94px;
+    height: 28px;
+    border: 1px solid #eee;
+    top: 22px;
+    left: -1px;
+    background: white;
+    border-top: none;
+}
+
+.nav #nav_ul li:last-child:hover {
+    background: white;
+}
+
+.nav #nav_ul li:last-child:hover div {
+    display: block;
+}
+
+
+/* logo */
+
+#logo {
+    padding: 0 150px;
+}
+
+#logo #scn {
+    float: left;
+    width: 260px;
+    height: 55px;
+    margin: 24px 101px 16px 0;
+    background: url(../img/nav_bg.png) left -1px;
+}
+
+#logo #show {
+    float: left;
+    margin-top: 39px;
+    overflow: hidden;
+}
+
+#logo #show a {
+    margin: 0 9px 0 9px;
+    padding-bottom: 2px;
+    display: inline-block;
+    height: 26px;
+    position: relative;
+}
+
+#logo #show a span {
+    display: none;
+    width: 105px;
+    height: 1px;
+    border-bottom: 2px solid #E4E4E4;
+    position: absolute;
+    top: 28px;
+}
+
+#logo #show div {
+    height: 25px;
+    width: 1px;
+    background: #e4e4e4;
+    display: inline-block;
+}
+
+#logo #show #show_a1 {
+    width: 105px;
+    background: url(../img/gwc_bg.png) left -62px;
+}
+
+#logo #show #show_a2 {
+    width: 105px;
+    background: url(../img/gwc_bg.png) -134px -62px;
+}
+
+#logo #show #show_a3 {
+    width: 105px;
+    background: url(../img/gwc_bg.png) right -62px;
+}
+
+#logo #show a:hover span {
+    display: block;
+}
+
+#logo #lljl {
+    float: left;
+    width: 200px;
+    height: 58px;
+    border: 1px dashed #a9a9a9;
+    margin: 15px 0 0 10px;
+}
+
+#logo #lljl #dgrx {
+    width: 177px;
+    height: 16px;
+    background: url(../img/gwc_bg.png) -10px -8px;
+    margin: 7px 0 0 6px;
+}
+
+#logo #lljl #kf {
+    float: left;
+    width: 84px;
+    color: #333333;
+    font-size: 12px;
+    height: 19px;
+    line-height: 19px;
+    margin: 10px 0 0 6px;
+}
+
+#logo #lljl #kf span {
+    float: left;
+    margin-right: 4px;
+    width: 17px;
+    height: 19px;
+    background: url(../img/gwc_bg.png) -12px -34px;
+}
+
+#logo #lljl #kf:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+#logo #lljl li {
+    position: relative;
+    float: left;
+    margin: 4px 0px 0px 12px;
+    border: 2px solid #ffffff;
+    width: 94px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    color: #333333;
+    font-size: 12px;
+    background: url(../img/nav_dsj.png) no-repeat 80px center;
+    border-bottom: none;
+}
+
+#logo #lljl li #lljl_kz {
+    display: none;
+    position: absolute;
+    text-align: left;
+    padding-left: 17px;
+    width: 218px;
+    border: 2px solid #000;
+    left: -143px;
+    top: 28px;
+    background: white;
+}
+
+#lljl_kz em {
+    position: absolute;
+    width: 94px;
+    height: 2px;
+    background: white;
+    left: 141px;
+    top: -2px;
+}
+
+#lljl_kz p {
+    text-align: left;
+    margin: 11px 0 0px 0px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#lljl_kz #jl_box div {
+    height: 40px;
+}
+
+#lljl_kz #jl_box span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-top: 12px;
+}
+
+#lljl_kz #delete {
+    width: 202px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+#lljl_kz #delete img {
+    float: left;
+    margin: 8px 10px 0 54px;
+}
+
+#lljl_kz #delete:hover {
+    background: #eee;
+}
+
+#ckgwc {
+    padding: 0 150px;
+    width: 959px;
+    z-index: -10;
+}
+
+
+/*gwc*/
+
+#gwc {
+    width: 897px;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    margin: 16px 0 0 150px;
+    overflow: hidden;
+}
+
+#gwc #k_gwc {
+    width: 718px;
+    height: 55px;
+    padding: 40px 0 40px 200px;
+    margin-bottom: 10px;
+}
+
+#gwc #k_gwc p,img {
+    float: left;
+}
+
+#gwc #k_gwc p {
+    margin-left: 30px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    color: #000;
+}
+
+#gwc #k_gwc p a {
+    color: #ff6600;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+#gwc #k_gwc p a:hover {
+    text-decoration: underline;
+    color: #b80202;
+}
+
+
+/*tjsp_box*/
+
+#tjsp_box {
+    display: none;
+    width: 959px;
+    padding: 20px 0px;
+    margin-left: 150px;
+    overflow: hidden;
+}
+
+#tjsp_box #myshop {
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#tjsp_box #tjsp {
+    width: 957px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+#tjsp #tjsp_title {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    background: #fafafa;
+}
+
+#tjsp_title li {
+    float: left;
+    color: #555555;
+    font-size: 12px;
+    height: 20px;
+}
+
+#tjsp_title> span {
+    float: left;
+    color: #555555;
+    font-size: 12px;
+    height: 20px;
+}
+
+#tjsp_title #spxx {
+    padding: 0 190px;
+}
+
+#tjsp_title #zsjf {
+    padding-right: 40px;
+}
+
+#tjsp_title #sl {
+    padding: 0 54px;
+}
+
+#tjsp_title #xj {
+    padding: 0 64px 0 54px;
+}
+
+
+/*#sp*/
+
+/*#tjsp:nth-child(2){display: none;}*/
+/*不能在这里让#sp隐藏    需要在js中写     但是克隆的东西刷新之后就没了  所以还是达不到效果*/
+
+#sp {
+    height: 80px;
+    padding: 0 20px;
+}
+
+#sp_spxx {
+    padding-top: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+#sp_spxx img {
+    float: left;
+}
+
+#sp_spxx div {
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    height: 68px;
+}
+
+#sp_spxx div a {
+    color: #666;
+    font-size: 12px;
+}
+
+#sp_spxx div a:hover {
+    color: #CC0000;
+}
+
+#sp_zsjf,.sp_xsjg,#sp_sl,.sp_zk,.sp_xj,#sp_cz {
+    width: 70px;
+    height: 60px;
+    float: left;
+    line-height: 68px;
+}
+
+#sp_zsjf {
+    width: 130px;
+    text-align: center;
+}
+
+.sp_xj {
+    margin: 0 35px 0 23px;
+}
+
+#sp_cz {
+    width: 40px;
+    height: 64px;
+}
+
+#sp_cz span {
+    float: left;
+    height: 20px;
+}
+
+#sp_cz span:hover {
+    color: #CC0000;
+}
+
+/*spsl*/
+
+#sp_sl {
+    width: 100px;
+    margin: 28px 15px 0 0;
+}
+
+#sp_sl #sub,#add,.text1 {
+    float: left;
+}
+
+#sp_sl a {
+    width: 15px;
+    height: 15px;
+    margin: 6px 6px 0 6px;
+}
+
+#sp_sl #sub {
+    margin-left: 17px;
+    background: url(../img/xing.png) left -301px;
+}
+
+#sp_sl #sub:hover {
+    background: url(../img/xing.png) left -316px;
+}
+
+#sp_sl #add {
+    background: url(../img/xing.png) -15px -301px;
+}
+
+#sp_sl #add:hover {
+    background: url(../img/xing.png) -15px -316px;
+}
+
+#sp_sl .text1 {
+    width: 28px;
+    height: 20px;
+    line-height: 20px;
+    background: white;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+#spsl_box {
+    width: 959px;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 15px;
+}
+
+#spsl_box li {
+    padding-left: 715px;
+}
+
+#spsl_box #spsl {
+    font-size: 14px;
+}
+
+#spsl_box #spsl i {
+    color: red;
+    margin: 0 4px;
+}
+
+#spsl_box #spsl em {
+    font-style: normal;
+    color: #988f8f;
+    margin: 0 4px;
+}
+
+#spsl_box #spzjg {
+    color: #988f8f;
+    padding-left: 800px;
+    margin: 10px 0 10px 0;
+}
+
+#spzjg em {
+    font-style: normal;
+    font-size: 16px;
+    color: #cc0000;
+    font-weight: 700;
+}
+
+
+/*xdjs_box*/
+
+#xdjs_box span {
+    color: red;
+}
+
+#xdjs_box li {
+    width: 340px;
+}
+
+#xdjs_box a {
+    float: right;
+}
+
+#xdjs_box a> span {
+    float: left;
+    width: 14px;
+    height: 15px;
+    margin-right: 5px;
+    background: url(../img/jxgw.png) -280px -99px;
+}
+
+#xdjs_box a:hover {
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+#xdjs_box a:hover span {
+    background: url(../img/jxgw.png) -257px -99px;
+}
+
+#jxgm {
+    margin: 15px 10px 0 0;
+    color: #000000
+}
+
+#xdjs {
+    width: 172px;
+    height: 36px;
+    background: url(../img/xdjs.png);
+}
+
+
+
+
+
+/*#qq*/
+
+#qq {
+    width: 78px;
+    height: 124px;
+    padding: 10px 0;
+    border: 1px solid #eee;
+    position: absolute;
+    right: 55px;
+    top: 150px;
+}
+
+#qq #qq1 {
+    margin-left: 14px;
+    display: block;
+    width: 50px;
+    height: 51px;
+    background: url(../img/foot-qq_bg.png) -1308px top;
+}
+
+#qq #fwrx {
+    margin: 18px 0 0 4px;
+    display: block;
+    width: 70px;
+    height: 58px;
+    background: url(../img/foot-qq_bg.png) -1357px top;
+}

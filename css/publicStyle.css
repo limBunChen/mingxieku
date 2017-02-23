@@ -1,0 +1,31 @@
+html,body,div,p,ul,li,input,form,h1,h2,h3,h4,h5,h6,img,span,a,i {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: "微软雅黑";
+}
+
+ul,ol,dl,li {
+    list-style: none;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    /*color: black;*/
+    font-weight: 100;
+    font-size: 12px;
+}
+
+img {
+    border: none;
+    display: block;
+}
+input,button{
+    border:none;
+    background: white;
+}

@@ -1,0 +1,170 @@
+/*整体*/
+.integer {
+    width: 1259px;
+    margin: 0 auto;
+}
+/*#head*/
+#head{
+    margin: 35px 139px 0px 139px;
+    width:980px;
+    overflow: hidden;
+}
+#head #scn {
+    width: 421px;
+    height: 63px;
+    background: url(../img/nav_bg.png) left -1px;
+}
+#head > li{
+    width: 980px;
+    height:48px;
+    line-height:48px;
+}
+#head > li a{
+    float:right;
+    margin-right:100px;
+    color:#999999;
+    font-size:12px;
+}
+#head > li a:hover{
+    color:#CC0000;
+    text-decoration: underline;
+}
+/*#countent*/
+#countent{
+    width:780px;
+    margin:0 239px 10px 239px;
+    border:1px solid #ccc;
+    box-shadow: -3px 3px #f4f4f4 ;
+    background:url(../img/register/zh_01.jpg) no-repeat bottom;
+    overflow: hidden;
+}
+#countent h2{
+    color: #888888;
+    height:30px;
+    line-height:30px;
+    font-size:16px;
+    padding-left:10px;
+    background:#f8f8f8;
+    margin-bottom:47px;
+}
+/*#countent #c_left*/
+#countent #c_left{
+    margin:0 120px 0px 84px;
+    float:left;
+}
+#countent #c_left #tiShiBox{
+   display: inline-block;
+   width:200px;
+   height:30px;
+}
+#countent #c_left #tiShi{
+   display: none;
+   width:164px;
+   height:23px;
+   padding-left:23px;
+   border:1px solid #e6594e;
+   text-align: left;
+   background:url(../img/register/zh_05.gif) 5px center no-repeat #fceae8;
+}
+#countent #c_left span{
+    display: inline-block;
+    width:60px;
+    text-align:right;
+    height:28px;
+    line-height:28px;
+}
+#countent #c_left input{
+    margin-bottom:12px;
+    width:225px;
+    height:28px;
+    background:white;
+    border:1px solid #ccc;
+    padding-left:5px;
+}
+#countent #c_left #che{
+    width:12px;
+    height:12px;
+    margin-left:62px;
+    margin-top:13px;
+}
+#countent #c_left #yzm0{
+    width:67px;
+}
+#countent #c_left #yzm1{
+    width:67px;
+    height:17px;
+    border:none;
+    background:#eeeeee;
+    text-align: center;
+}
+#countent #c_left #hgtp{
+    color:#ccc;
+}
+#countent #c_left #hgtp:hover{
+    text-decoration: underline ;
+}
+#countent #c_left em{
+    font-style:normal;
+}
+#c_left em a{
+    text-decoration:underline #ccc;
+}
+#c_left em a:hover{
+    text-decoration: underline red;
+}
+#countent #c_left #btn{
+    width:89px;
+    height:37px;
+    background:url(../img/register/zh_02.png) left -198px;
+    margin:5px 0 82px 62px;
+    border:none;
+}
+/*#countent #c_right*/
+#countent #c_right{
+    float:right;
+    width:228px;
+    height:305px;
+    border-left:1px dashed #eee;
+    padding-left:50px;
+}
+#countent #c_right li{
+    height:34px;
+    font-size:12px;
+    font-weight: 700;
+    color:#333333;
+    line-height: 34px;
+    margin:50px 0 0 35px;  
+}
+#countent #c_right button{
+    width:91px;
+    height:32px;
+    margin:0px 0 0 40px;
+    background:url(../img/register/zh_03.png);
+}
+#countent #c_right div{
+    width:165px;
+    height:38px;
+    background:url(../img/register/zh_04.png);
+    margin-top:45px;
+}
+/*#popup*/
+#popup{
+    width:100%;
+    height:693px;
+    display: none;
+    position:absolute;
+    top:0px;
+    background:#333333;
+    opacity: 0.5;
+    text-align: center;
+}
+#popup p{
+    color:red;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top:240px;
+}
+#popup p span{
+    color:purple;
+    font-size: 50px;
+}

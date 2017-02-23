@@ -1,0 +1,107 @@
+{
+    "text": [
+        "板鞋",
+        "跑步鞋",
+        "帆布鞋",
+        "拖鞋",
+        "篮球鞋",
+        "足球鞋",
+        "赛车鞋",
+        "网球鞋"
+    ],
+    "lbt_url": [
+        "img/lbt1.jpg",
+        "img/lbt2.jpg",
+        "img/lbt3.jpg",
+        "img/lbt4.jpg",
+        "img/lbt5.jpg"
+    ],
+    "pp": [
+        "img/images/pp_bg_0.gif",
+        "img/images/pp_bg_1.gif",
+        "img/images/pp_bg_2.gif",
+        "img/images/pp_bg_3.gif",
+        "img/images/pp_bg_4.gif",
+        "img/images/pp_bg_5.gif",
+        "img/images/pp_bg_6.gif",
+        "img/images/pp_bg_7.gif",
+        "img/images/pp_bg_8.gif",
+        "img/images/pp_bg_9.gif",
+        "img/images/pp_bg_10.gif",
+        "img/images/pp_bg_11.gif",
+        "img/images/pp_bg_12.gif",
+        "img/images/pp_bg_13.gif",
+        "img/images/pp_bg_14.gif",
+        "img/images/pp_bg_15.gif",
+        "img/images/pp_bg_16.gif",
+        "img/images/pp_bg_17.gif",
+        "img/images/pp_bg_18.gif",
+        "img/images/pp_bg_19.gif"
+        ,
+        "img/images/pp_bg_20.gif"
+    ],
+    "ydx": [
+        "休闲鞋",
+        "板鞋",
+        "跑步鞋",
+        "帆布鞋",
+        "拖鞋",
+        "篮球鞋",
+        "足球鞋",
+        "赛车鞋",
+        "网球鞋",
+        "溯溪鞋"
+    ],
+    "fz": [
+        "短袖T恤",
+        "短袖POLO",
+        "运动长裤",
+        "运动短裤",
+        "休闲裤",
+        "卫衣",
+        "外套"
+    ],
+    "pptj": [
+        "img/man0.jpg",
+        "img/man1.jpg",
+        "img/man2.jpg",
+        "img/man3.jpg",
+        "img/man4.jpg",
+        "img/man5.jpg",
+        "img/man6.jpg",
+        "img/man7.jpg",
+        "img/man8.jpg",
+        "img/man9.jpg",
+        "img/man10.jpg",
+        "img/man11.jpg",
+        "img/man12.jpg"
+    ],
+    "yhm": [
+        "11111111111",
+        "12312312312",
+        "22222222222",
+        "33333333333"
+    ],
+    "pp_show": [
+        "img/images/pp_show_0.gif",
+        "img/images/pp_show_1.gif",
+        "img/images/pp_show_2.gif",
+        "img/images/pp_show_3.gif",
+        "img/images/pp_show_4.gif",
+        "img/images/pp_show_5.gif",
+        "img/images/pp_show_6.gif",
+        "img/images/pp_show_7.gif",
+        "img/images/pp_show_8.gif",
+        "img/images/pp_show_9.gif",
+        "img/images/pp_show_10.gif",
+        "img/images/pp_show_11.gif",
+        "img/images/pp_show_12.gif",
+        "img/images/pp_show_13.gif",
+        "img/images/pp_show_14.gif",
+        "img/images/pp_show_15.gif",
+        "img/images/pp_show_16.gif",
+        "img/images/pp_show_17.gif",
+        "img/images/pp_show_18.gif",
+        "img/images/pp_show_19.gif"
+    ]
+}

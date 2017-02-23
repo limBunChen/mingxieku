@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/publicStyle.css" />
+		<link rel="stylesheet" href="css/shopStyle.css" />
+		<link rel="stylesheet" type="text/css" href="css/line_footer.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/shopJs.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	    <div id="interger">
+	        <div class="nav">
+	            <p>您好，欢迎来到名鞋库！<a href="" >请登入</a><a href="">免费注册</a></p>
+                <ul id="nav_ul">
+                    <li><a href="">我的订单</a></li>
+                    <li id="my"><a href="" >我的名鞋库</a><i></i>
+                        <ul id="li_ul">
+                            <li><a href="">我的订单</a></li>
+                            <li><a href="">我的积分</a></li>
+                            <li><a href="">优惠券</a></li>
+                            <li><a href="">商品收藏</a></li>
+                            <li><a href="">收货地址</a></li>
+                            <li><a href="">密码管理</a></li>
+                        </ul>
+                    </li>
+                    <li id="ip_li"><a href="">帮助中心</a><i></i>
+                        <div id="wx"><a href="">售后中兴</a></div>
+                    </li>
+                </ul>
+            </div>
+            <div id="logo">
+                <div id="scn"></div>
+                <div id="show">
+                    <a href="" id="show_a1"><span></span></a>
+                    <div></div>
+                    <a href="" id="show_a2"><span></span></a>
+                    <div></div>
+                    <a href="" id="show_a3"><span></span></a>
+                </div>
+                <div id="lljl">
+                    <p id="dgrx"></p>
+                    <a href="" id="kf"><span></span>名鞋库客服</a>
+                    <li >
+                                            浏览记录
+                        <div id="lljl_kz">
+                            <em></em>
+                           <p>最近浏览过的商品：</p> 
+                           <div id="jl_box">
+                           		<div>暂时没有您的任何浏览记录！</div>
+                           		<!--<span></span>-->
+                           </div>
+                           <div id="delete">
+                               <img src="img/delete.png" alt="" />
+                               <i>清除浏览记录</i>
+                           </div>
+                        </div>
+                    </li>
+                </div>
+            </div>
+	    	<div id="ckgwc"><img src="img/ckgwc_bg.jpg" width="959"/></div>
+	    	
+	    	<div id="gwc">
+	    	    <div id="k_gwc">
+	    	        <img src="img/gwc.gif" alt="" />
+	    	        <p>您还没有挑选商品，<a href="index.html">返回首页</a>。</p>
+	    	    </div>
+	    	</div>
+	    	<!--fjsp_box-->
+	    	<div id="tjsp_box">
+	    	    <h3 id="myshop">我的购物车</h3>
+	    	    <div id="tjsp">
+	    	        <div id="tjsp_title">
+	    	            <li id="spxx">商品信息</li>
+	    	            <span id="zsjf">赠送积分</span>
+	    	            <span id="xsjg">销售价格</span>
+	    	            <li id="sl">数量</li>
+	    	            <span id="zk">折扣/优惠</span>
+	    	            <span id="xj">小计</span>
+	    	            <li id="cz">操作</li>
+	    	        </div>
+	    	        <div id="sp">
+	    	            <li id="sp_spxx">
+	    	                <img src="img/gw_bg.jpg" alt="" width="40px" height="40px"/>
+	    	                <div> 
+                                <a href="">李宁跑步男鞋低帮跑步鞋运动鞋ARBJ001-2 ZJ</a>
+	    	                    <span>( 尺码:43,颜色:冷灰+荧光亮绿 )</span>
+	    	                </div>
+	    	            </li>
+                        <span id="sp_zsjf">0</span>
+                        <span class="sp_xsjg"></span>
+                        <li id="sp_sl">
+                            <a href="javascript:;" id="sub"></a>
+                            <input type="text" name="" class="text1" value="1" />
+                            <a href="javascript:;" id="add"></a>
+                        </li>
+                        <span class="sp_zk">-￥13.00</span>
+                        <span class="sp_xj">0</span>
+                        <li id="sp_cz">
+                            <span id="sc">收藏</span>
+                            <span id="dele">删除</span>
+                        </li>
+	    	        </div>
+	    	    </div>
+	    	    <div id="spsl_box"> 　  
+                        <li id="spsl">商品数量：<i id="spsl_spsl">0</i>件<em>享受的优惠：</em>活动价</li>
+                        <li id="spzjg">商品总金额：<em id="zMoney">￥0</em></li>
+                    </div>
+                <div id="xdjs_box">
+                        <li><span>提示：</span>加入购物车的商品无法为您保证库存，请及时下单支付。</li>
+                        <a href="" id="xdjs"></a>
+                        <a href="sell.html" id="jxgm"><span></span>继续购物</a>
+                    </div>
+	    	</div>
+	       <!--line  分界线-->
+            <div id="line"></div>
+            <!--footer_bottom-->
+	       <div id="footer_bottom">
+                 <ul id="footer_nav">
+                    <li><a href="">关于名鞋库</a></li>
+                    <li><a href="">联系名鞋库</a></li>
+                    <li><a href="">人才招聘</a></li>
+                    <li><a href="">法律声明</a></li>
+                    <li><a href="">免责条款</a></li>
+                    <li><a href="">全部分类</a></li>
+                    <li><a href="">友情链接</a></li>
+                    <li><a href="">鞋码对照表</a></li>
+                    <li><a href="">客服中心</a></li>
+                    <li><a href="">问答中心</a></li>
+                 </ul>
+                 <p >  
+                     Copyright © 2008-2014<span>s.cn</span><a href="" id="mxk">名鞋库</a>All Rights Reserved.
+                     <a href="" id="min">闽ICP备08106896号</a>经营许可证闽B2-20110061
+                 </p>
+                 <ul id="picture">
+                    <a href=""><img src="img/wfd.png" alt="" /></a>
+                    <a href=""><img src="img/smrz.png"/></a>
+                 </ul>
+            </div>
+	       <div id="qq">
+	           <span id="qq1"></span>
+	           <span id="fwrx"></span>
+	       </div>
+	    </div>
+	</body>
+</html>

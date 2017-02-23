@@ -1,0 +1,322 @@
+/*#title*/
+#title {
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    width: 959px;
+    margin: 0 150px;
+}
+
+/*#sp*/
+
+#sp {
+    width: 959px;
+    margin: 0 150px;
+    overflow: hidden;
+}
+
+#sp #picture_box {
+    width: 408px;
+    height: 514px;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#sp h2 {
+    float: left;
+    font-size: 14px;
+    color: #111;
+    font-weight: 700;
+    line-height: 24px;
+    height: 24px;
+    margin: 0 0 11px 25px;
+    border-bottom: 1px dashed #ccc;
+}
+
+#sp h2 span {
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 55px;
+}
+
+#sp h2> a {
+    color: #ff6600;
+    font-size: 12px;
+    float: right;
+}
+
+#sp h2> a:hover {
+    text-decoration: underline;
+}
+
+#sp p {
+    margin-left: 25px;
+    float: left;
+    width: 523px;
+    line-height: 30px;
+    height: 30px;
+    color: #666666;
+}
+
+#sp em {
+    font-style: normal;
+    font-size: 12px;
+    color: #666666;
+}
+
+#sp #dpj span {
+    text-decoration: line-through;
+    font-size: 9px;
+}
+
+#sp #xsj span {
+    color: #dd0000;
+    font-weight: 900;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#sp #hpd span {
+    display: inline-block;
+    width: 60px;
+    height: 11px;
+    background: url(../img/xing.png) no-repeat -99px -178px;
+    margin-right: 5px;
+}
+
+#sp #hpd i {
+    margin-right: 5px;
+}
+
+#sp #hpd a {
+    margin: 0 2px;
+}
+
+#sp #hpd a:hover {
+    text-decoration: underline;
+}
+
+#sp #zm {
+    margin-left: 25px;
+    float: left;
+    width: 523px;
+    background: #f5f5f5;
+    position: relative;
+}
+
+#zm #zm1 {
+    width: 486px;
+    overflow: hidden;
+    padding: 10px 0 0 37px;
+}
+
+#zm #zm1 span {
+    height: 115px;
+    line-height: 115px;
+    float: left;
+}
+
+#zm #zm1 li {
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 23px;
+    font-size: 11px;
+    line-height: 23px;
+    border: 1px solid #cccccc;
+    margin: 10px 0 0 6px;
+    background: white;
+}
+
+#zm #zm1 li a {
+    color: #000;
+}
+
+#zm #zm1 li:hover {
+    border: 1px solid #fdae0c;
+}
+
+.click {
+    border: 1px solid #fdae0c !important;
+}
+
+.show {
+    display: block !important;
+}
+
+#zm #zm1 li img {
+    display: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.7;
+}
+
+#zm #color {
+    width: 486px;
+    padding: 10px 0 0 37px;
+    overflow: hidden;
+}
+
+#zm #color span,#color_a {
+    float: left;
+}
+
+#zm #color span {
+    height: 42px;
+    line-height: 42px;
+}
+
+#zm #color #dt {
+    margin-left: 17px;
+    border: 1px solid #ccc;
+}
+
+#zm #color a {
+    position: relative;
+}
+
+#zm #color a #xz {
+    display: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#zm #color #dt:hover {
+    border: 1px solid #ff9900;
+}
+
+#zm #gmsl {
+    width: 510px;
+    padding: 10px 0 0 13px;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+#zm #gmsl span {
+    margin-left: 5px;
+}
+
+#zm #gmsl span,#sub,#add,#text1 {
+    float: left;
+}
+
+#zm #gmsl a {
+    width: 15px;
+    height: 15px;
+    margin: 6px 6px 0 6px;
+}
+
+#zm #gmsl #sub {
+    margin-left: 17px;
+    background: url(../img/xing.png) left -301px;
+}
+
+#zm #gmsl #add {
+    background: url(../img/xing.png) -15px -301px;
+}
+
+#zm #gmsl #text1 {
+    width: 28px;
+    height: 20px;
+    line-height: 20px;
+    background: white;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+#zm #sczp {
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    right: 5px;
+    bottom: 11px;
+    background: url(../img/xing.png) left -178px;
+}
+
+#zm #sczp:hover {
+    background: url(../img/xing.png) left -207px;
+}
+
+#zm #line {
+    height: 5px;
+    border-bottom: 1px dashed #ccc;
+    background: white;
+}
+
+
+/*#jion*/
+
+#sp #jion {
+    margin-left: 25px;
+    float: left;
+    width: 523px;
+    border-bottom: 1px dashed #ccc;
+    position: relative;
+    padding: 14px 0;
+}
+
+#sp #jion li,#get,#jionS {
+    float: left;
+    width: 189px;
+    font-size: 12px;
+}
+
+#sp #jion li {
+    margin: 26px 20px 0 0;
+}
+
+#sp #jion li span {
+    color: #cc0000;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+#sp #jion #get {
+    width: 133px;
+    height: 42px;
+    background: url(../img/xing.png) -2px -448px;
+    margin-right: 5px;
+}
+
+#sp #jion #get:hover {
+    background: url(../img/xing.png) -2px -500px;
+}
+
+#sp #jion #jionS {
+    width: 170px;
+    height: 42px;
+    background: url(../img/xing.png) -2px -395px;
+}
+
+#sp #jion #jionS:hover {
+    background: url(../img/xing.png) -2px -126px;
+}
+
+
+
+/*#popup*/
+#popup{
+    width:100%;
+    height:693px;
+    display: none;
+    position:absolute;
+    top:0px;
+    background:#333333;
+    opacity: 0.5;
+    text-align: center;
+}
+#popup p{
+    background:white;
+    width:600px;
+    color:red;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top:240px;
+    margin-left:300px;
+}
+#popup p span{
+    color:purple;
+    font-size: 50px;
+}

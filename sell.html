@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>交易</title>
+		<link rel="stylesheet" type="text/css" href="css/sellStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="css/navStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="css/publicStyle.css"/>
+	   <script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	   <script src="js/sellJs.js" type="text/javascript" charset="utf-8"></script>
+	   <script src="js/headJs.js" type="text/javascript" charset="utf-8"></script>
+	   <script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+	<body>
+	    <!--integer整体-->
+        <div class="integer">
+            <div class="nav">
+                <ul id="nav_ul">
+                    <li><a href="" >欢迎登录名鞋库</a><a href="">免费注册</a></li>
+                    <li id="my"><a href="" >我的名鞋库</a><i></i>
+                        <ul id="li_ul">
+                            <li><a href="">我的订单</a></li>
+                            <li><a href="">我的积分</a></li>
+                            <li><a href="">优惠券</a></li>
+                            <li><a href="">商品收藏</a></li>
+                            <li><a href="">收货地址</a></li>
+                            <li><a href="">密码管理</a></li>
+                        </ul>
+                    </li>
+                    <li id="ip_li"><p></p><em id="iphone"></em><a href="">手机名鞋库</a><i></i>
+                        <div id="wx">
+                            <img src="img/inphone1.png" alt="" />
+                            <img src="img/inphone2.png" alt="" />
+                        </div>
+                    </li>
+                    <li><a href="">收藏名鞋库</a></li>
+                    <li><em id="qq"></em><a href="">名鞋库客服</a></li>
+                    <li><span id="last_span"></span></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+             <!--head-->
+            <div id="head">
+                <div id="scn"></div>
+                <div id="search">
+                    <form >
+                        <div id="text_div"><input type="text" name="" id="text" value="" /></div>
+                        <input type="button" name="" id="sea" value="搜索" />
+                    </form>
+                    <ul>
+                        <li><input type="text" name="" id="rsea" value="热搜:" disabled="disabled"/></li>
+                        <li><a href="">跑步鞋</a></li>
+                        <li><a href="">帆布鞋</a></li>
+                        <li><a href="">T恤</a></li>
+                        <li><a href="">胸衣Bra</a></li>
+                        <li><a href="">紧身打底裤</a></li>
+                        <li><a href="">三叶草</a></li>
+                    </ul>
+                </div>
+                <div id="shop">
+                    <a href="">购物车<span id="gwc_zs">0</span>件</a>
+                </div>
+            </div>
+		    <!--nav1-->
+            <div id="nav1">
+		        <div id="sysp">
+		            <h3 id="sysp_h3">所有商品分类</h3>
+		        </div>
+		        <ul id="home">
+		        	<li><a href="">首页</a></li>
+		        	<li id="man"><div id="man_div"><p></p></div><a href="">男子运动</a>
+		        		<div id="man_kz">
+		        			<ul id="ydx">
+		        				<h2>运动鞋</h2>
+		        				<!--<li><a href="">休闲鞋</a></li>
+		        				<li><a href="">板鞋</a></li>
+		        				<li><a href="">跑步鞋</a></li>
+		        				<li><a href="">帆布鞋</a></li>
+		        				<li><a href="">拖鞋</a></li>
+		        				<li><a href="">篮球鞋</a></li>
+		        				<li><a href="">足球鞋</a></li>
+		        				<li><a href="">赛车鞋</a></li>
+		        				<li><a href="">网球鞋</a></li>
+		        				<li><a href="">溯溪鞋</a></li>-->
+		        			</ul>
+		        			<ul id="fz">
+		        				<h2>服装</h2>
+		        			</ul>
+		        			<ul id="pptj">
+		        				<h2>品牌推荐</h2>
+		        			</ul>
+		        		</div>
+		        	</li>
+		        	<li id="mis"><a href="">女子运动</a>
+		        		<div id="mis_kz">
+		        			<ul id="ydx">
+		        				<h2>休闲鞋</h2>
+		        				<li><a href="">板鞋</a></li>
+		        				<li><a href="">跑步鞋</a></li>
+		        				<li><a href="">帆布鞋</a></li>
+		        				<li><a href="">拖鞋</a></li>
+		        				<li><a href="">网球鞋</a></li>
+		        				<li><a href="">健步鞋</a></li>
+		        			</ul>
+		        			<ul id="fz">
+		        				<h2>短袖T恤</h2>
+		        				<li><a href="">短袖POLO</a></li>
+		        				<li><a href="">紧身裤</a></li>
+		        				<li><a href="">胸衣</a></li>
+		        				<li><a href="">运动长裤</a></li>
+		        				<li><a href="">运动短裤</a></li>
+		        				<li><a href="">运动裙</a></li>
+		        				<li><a href="">卫衣</a></li>
+		        				<li><a href="">外套</a></li>
+		        			</ul>
+		        			<ul id="pptj">
+		        				<h2>品牌推荐</h2>
+		        				<li><a href=""><img src="img/man1.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man2.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man3.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man4.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man5.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man6.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man7.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man8.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man9.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man10.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man11.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man12.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man1.jpg"/></a></li>
+		        			</ul>
+		        		</div>
+		        	</li>
+		        	<li id="child"><a href="">儿童</a>
+		        		<div id="child_kz">
+		        			<ul id="childBody">
+		        				<h2>男童鞋</h2>
+		        				<li><a href="">婴童（0-4岁）</a></li>
+		        				<li><a href="">小童（4-10岁）</a></li>
+		        				<li><a href="">大童（10-13岁）</a></li>
+		        			</ul>
+		        			<ul id="fz">
+		        				<h2>服装</h2>
+		        				<li><a href="">套装  裤子</a></li>
+		        				<li><a href="">T恤</a></li>
+		        				<li><a href="">外套</a></li>
+		        			</ul>
+		        			<ul id="pptj">
+		        				<h2>品牌推荐</h2>
+		        				<li><a href=""><img src="img/man1.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man2.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man3.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man4.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man5.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man6.jpg"/></a></li>
+		        				<li><a href=""><img src="img/man7.jpg"/></a></li>
+		        			</ul>
+		        			<ul id="childGirl">
+		        				<h2>女童鞋</h2>
+		        				<li><a href="">婴童（0-4岁）</a></li>
+		        				<li><a href="">小童（4-10岁）</a></li>
+		        				<li><a href="">大童（10-13岁）</a></li>
+		        			</ul>
+		        		</div>
+		        	</li>
+		        	<li><a href="">男鞋</a></li>
+		        	<li><a href="">户外</a></li>
+		        </ul>
+		        <ul id="ydxb">
+		        	<li><a href="" id="xb"><img src="img/ydxb.png" alt="" />运动小白</a></li>
+		        	<li><a href="">上新区</a></li>
+		        	<li><a href="">即将售罄</a></li>
+		        	<li><a href="">逢八必杀</a></li>
+		        </ul>
+		        <div class="clear"></div>
+		    </div>
+		    <!--title-->
+		    <p id="title">您当前的位置： 名鞋库 » 运动鞋子 » 休闲鞋 » 阿迪达斯 » 阿迪达斯鞋子 » 阿迪达斯 AW5079</p>
+		    <!--sp-->
+            <div id="sp">
+                <div id="picture_box"><img class="picture" src="img/zq0.jpg" alt="" width="408px"/></div>
+                <h2>adidas阿迪达斯男鞋休闲鞋2016新款板鞋运动鞋AW5079 QJp<span>更多</span><a href="">阿迪达斯</a></h2>
+                <p id="dpj"><em>吊  牌  价：</em><span>￥469.00</span></p>
+                <p id="xsj"><em>销  售  价：</em><span class="dj">￥349.00</span>( 7.4折 )   立省： ￥120.00</p>
+                <p id="hpd"><em>好  评  度：</em><span></span><i>5分</i>(<a href="">已有4人评论</a>)</p>
+                <p id="yf"><em>运        费：</em>  名鞋库会员全场满399免邮  ( 不包括货到付款 )</p>
+                <div id="zm">
+                    <div id="zm1">
+                        <span>尺 码：</span>
+                        <li><a href="javascript:;">40(建议39码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                        <li><a href="javascript:;">40.5(建议40码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                        <li><a href="javascript:;">41(建议40.5码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                        <li><a href="javascript:;">42(建议41码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                        <li><a href="javascript:;">42.5(建议42码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                        <li><a href="javascript:;">43(建议42.5码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                        <li><a href="javascript:;">44(建议43码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                        <li><a href="javascript:;">44.5(建议44码脚穿着)</a><img src="img/xzImg.gif" alt="" /></li>
+                    </div>
+                    <div id="color">
+                        <span>颜 色 :</span>
+                        <a href="javascript:;" id="color_a">
+                            <img id="dt" src="img/zq0.jpg" alt="" width="30px"/>
+                            <img id="xz" src="img/xzImg.gif" alt="" />
+                        </a>
+                    </div>
+                    <div id="gmsl">
+                        <span>购买数量 :</span>
+                        <a href="javascript:;" id="sub"></a>
+                        <input type="text" name="" id="text1" value="1" />
+                        <a href="javascript:;" id="add"></a>
+                    </div>
+                    <a href="" id="sczp"></a>
+                    <div id="line"></div>
+                </div>
+                <div id="jion">
+                    <li>您将购买<span>1</span>件  1号黑色/亮白/树脂褐</li>
+                    <a href="#" id="get"></a>
+                    <a href="javascript:;" id="jionS"></a>
+                </div>
+            </div>
+        <!--注册成功后弹窗   popup-->
+            <!--<div id="popup">
+                <p>添加购物车成功是跳转到购物车<br/>
+                    <span id="yes">是</span>
+                    <span id="no">否</span>
+                </p>
+            </div>-->
+        </div>
+	</body>
+</html>
